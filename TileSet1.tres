@@ -1,0 +1,24 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://b6uxmyvwfysrn"]
+
+[ext_resource type="Texture2D" uid="uid://gwkob421rs7s" path="res://Doodad.png" id="1_0mdr8"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7vmux"]
+texture = ExtResource( "1_0mdr8" )
+0:0/animation_speed = 8.0
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/0 = 0
+0:1/animation_speed = 8.0
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/animation_frame_2/duration = 1.0
+0:1/animation_frame_3/duration = 1.0
+0:1/animation_frame_4/duration = 1.0
+0:1/0 = 0
+
+[resource]
+sources/0 = SubResource( "TileSetAtlasSource_7vmux" )
