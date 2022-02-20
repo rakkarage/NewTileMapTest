@@ -1,6 +1,7 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://b6y4u5a71u448"]
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://b6y4u5a71u448"]
 
 [ext_resource type="Texture2D" uid="uid://gwkob421rs7s" path="res://Doodad.png" id="1_0mdr8"]
+[ext_resource type="Texture2D" uid="uid://vvxyujpnbhtv" path="res://Cliff.png" id="2_6ghxg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7vmux"]
 texture = ExtResource( "1_0mdr8" )
@@ -20,5 +21,29 @@ texture = ExtResource( "1_0mdr8" )
 0:1/animation_frame_4/duration = 1.0
 0:1/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pa41j"]
+texture = ExtResource( "2_6ghxg" )
+0:0/0 = 0
+0:1/0 = 0
+1:0/0 = 0
+1:1/0 = 0
+2:0/0 = 0
+2:1/0 = 0
+3:0/0 = 0
+3:1/0 = 0
+4:0/0 = 0
+4:1/0 = 0
+5:0/0 = 0
+5:1/0 = 0
+6:0/0 = 0
+6:1/0 = 0
+7:0/0 = 0
+7:1/0 = 0
+8:0/0 = 0
+8:1/0 = 0
+9:0/0 = 0
+9:1/0 = 0
+
 [resource]
 sources/0 = SubResource( "TileSetAtlasSource_7vmux" )
+sources/1 = SubResource( "TileSetAtlasSource_pa41j" )
